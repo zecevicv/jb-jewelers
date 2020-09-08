@@ -145,11 +145,11 @@ window.addEventListener('load', () => {
     },
     breakpoints: {
       0: {
-        slidesPerView: 1.1,
+        slidesPerView: 1.15,
         spaceBetween: 30
       },
       1024: {
-        slidesPerView: 1.5
+        slidesPerView: 1.75
       }
     },
     on: {
@@ -183,7 +183,7 @@ window.addEventListener('load', () => {
     allowTouchMove: false,
     breakpoints: {
       0: {
-        slidesPerView: 1.1,
+        slidesPerView: 1.15,
         spaceBetween: 30,
         allowTouchMove: true
       },

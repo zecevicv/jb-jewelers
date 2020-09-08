@@ -914,6 +914,9 @@ button, input, a, p, li {
   position: relative;
   color: white; }
 
+.home-brands .brand-banner .img img {
+  width: 100%; }
+
 .home-brands .brand-banner .text {
   position: absolute;
   top: 75%;

@@ -140,6 +140,7 @@ window.addEventListener('load', () => {
   const videoSlider = new Swiper('#videosSlider', {
     slidesPerView: 1.5,
     spaceBetween: 45,
+    loop: true,
     pagination: {
       el: '#videosSlider .swiper-pagination',
     },
@@ -167,6 +168,7 @@ window.addEventListener('load', () => {
         // Pause all videos
         videos.forEach((video) => {
           video.pause();
+          video.currentTime = 0;
         });
 
         // Play only one on current active slide

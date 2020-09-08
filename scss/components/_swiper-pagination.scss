@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the swiper pagination component.
+// -----------------------------------------------------------------------------
+.swiper-pagination {
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 3.9vw;
+  height: 2px;
+  border-radius: 0;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 .5vw;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black;
+}
+
+@media (max-width: 1023.98px) {
+  .swiper-pagination-bullet {
+    width: 10vw;
+  }
+ 
+  .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 1.2vw;
+  }
+}

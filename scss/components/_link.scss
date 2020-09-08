@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the link component.
+// -----------------------------------------------------------------------------
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link img {
+  height: .6vw;
+  margin-right: .5vw;
+  transition: all .2s ease;
+}
+
+.link:hover img {
+  transform: translateX(-.35vw);
+}
+
+@media (max-width: 1023.98px) {
+  .link img {
+    height: 2.9vw;
+    margin-right: 2vw;
+  }
+
+  .link:hover img {
+    transform: translateX(0);
+  }
+}

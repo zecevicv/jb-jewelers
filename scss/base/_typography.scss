@@ -1,3 +1,70 @@
 // -----------------------------------------------------------------------------
 // This file contains typography styles.
 // -----------------------------------------------------------------------------
+
+// Headings
+.h1 {
+  font-weight: 100;
+  font-size: 4.2rem;
+  line-height: 1.12;
+}
+
+.h2 {
+  font-weight: 100;
+  font-size: 1.93rem;
+  line-height: 1.2;
+}
+
+.h3 {
+  font-weight: 100;
+  font-size: 1.41rem;
+}
+
+// Paragraphs
+.p1 {
+  font-weight: 100;
+  font-size: .835rem;
+}
+
+.p2 {
+  font-weight: 100;
+  font-size: .73rem;
+}
+
+// Links
+.link {
+  font-size: .835rem;
+}
+
+// Elements
+button, input, a, p, li {
+  font-size: .835rem;
+  font-family: inherit;
+}
+
+@media (max-width: 1023.98px) {
+  .h1 {
+    font-size: 10.7rem;
+  }
+
+  .h2 {
+    font-size: 6.7rem;
+  }
+
+  .h3 {
+    font-size: 5.1rem;
+  }
+
+  .p1 {
+    font-size: 4.3rem;
+    line-height: 1.2;
+  }
+
+  .p2 {
+    font-size: 2.95rem;
+  }
+
+  .link {
+    font-size: 4rem;
+  }
+}

@@ -1,3 +1,33 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+
+// Roboto
+@font-face {
+  font-family: 'roboto';
+  src: url('../font/Roboto-Light.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../font/Roboto-Regular.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+// Rubik
+@font-face {
+  font-family: 'rubik';
+  src: url('../font/Rubik-Light.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rubik';
+  src: url('../font/Rubik-Regular.ttf');
+  font-weight: 300;
+  font-style: normal;
+}

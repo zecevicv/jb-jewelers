@@ -1,3 +1,48 @@
 // -----------------------------------------------------------------------------
 // This file contains CSS helper classes.
 // -----------------------------------------------------------------------------
+// Text
+.bold {
+  font-weight: 300 !important;
+}
+
+.light {
+  font-weight: 100 !important;
+}
+
+// Container
+.container {
+  margin: 0 auto;
+}
+
+// Display
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .d-d-none {
+    display: none;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .d-m-none {
+    display: none;
+  }
+}
+
+// Colors
+.text-red {
+  color: $red;
+}
+
+// Alignment
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}

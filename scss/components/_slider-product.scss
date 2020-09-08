@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the slider product component.
+// -----------------------------------------------------------------------------
+
+.slider-product {
+  padding: .8vw 1.6vw 1.37vw 1.6vw;
+  border-left: 1px solid $gray-light;
+  background-color: white;
+}
+
+.slider-product.swiper-slide-duplicate-prev {
+  border-left: none;
+}
+
+.slider-product .product-icon img {
+  width: 1.25vw;
+}
+
+.slider-product .product-img {
+  margin: .8vw 0 1vw 0;
+}
+
+.slider-product .product-img img {
+  width: 100%;
+}
+
+.slider-product .product-brand {
+  font-family: 'roboto', sans-serif;
+}
+
+.slider-product .product-title {
+  margin-bottom: 1.4vw;
+}
+
+.slider-product .product-price span:not(:last-child) {
+  margin-left: 1vw;
+}
+
+@media (max-width: 1023.98px) {
+  .slider-product {
+    padding: 4vw;
+    border-left: none;
+  }
+
+  .slider-product .product-icon img {
+    width: 5vw;
+  }
+
+  .slider-product .product-img {
+    margin: 4vw 0 3vw 0;
+  }
+
+  .slider-product .product-brand {
+    font-size: 3.5rem;
+  }
+  
+  .slider-product .product-title,
+  .slider-product .product-price {
+    font-size: 3.2rem;
+  }
+}

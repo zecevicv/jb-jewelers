@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the swiper arrows component.
+// -----------------------------------------------------------------------------
+.swiper-arrows .swiper-button-next,
+.swiper-arrows .swiper-button-prev {
+  width: 1.4vw!important;
+  height: 1.4vw!important;
+}
+
+.swiper-arrows .swiper-button-next {
+  left: 0;
+}
+
+.swiper-arrows .swiper-button-prev {
+  right: 0;
+}
+
+.swiper-arrows .swiper-button-next::after,
+.swiper-arrows .swiper-button-prev::after {
+  content: '';
+  background-image: url('../img/icons/chevron-gray-left.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 1.4vw!important;
+  height: 1.4vw!important;
+}
+
+.swiper-arrows .swiper-button-prev::after {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1023.98px) {
+  .swiper-arrows .swiper-button-next,
+  .swiper-arrows .swiper-button-prev {
+    width: 4vw!important;
+    height: 4vw!important;
+  }
+
+  .swiper-arrows .swiper-button-next::after,
+  .swiper-arrows .swiper-button-prev::after {
+    width: 4vw!important;
+    height: 4vw!important;
+  }
+}

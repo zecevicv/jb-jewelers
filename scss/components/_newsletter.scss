@@ -1,0 +1,119 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the slider product component.
+// -----------------------------------------------------------------------------
+
+.newsletter .container {
+  max-width: 83%;
+  display: flex;
+  align-items: center;
+}
+
+.newsletter .img {
+  flex: 0 0 68%;
+}
+
+.newsletter .text {
+  flex: 0 0 32%;
+}
+
+.newsletter .h3 {
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: .5vw;
+}
+
+.newsletter .p1 {
+  margin-bottom: 1.5vw;
+}
+
+.newsletter form {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.newsletter label {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transition: all .3s ease;
+  font-size: .835rem;
+  transform: translateY(-50%);
+  backface-visibility: hidden;
+}
+
+.newsletter input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  box-shadow: none;
+  color: black;
+  font-size: .835rem;
+}
+
+.newsletter input:focus~label,
+.newsletter input:valid~label {
+  transform: translateY(-170%);
+  font-size: .73rem;
+}
+
+.newsletter button {
+  background-color: transparent;
+  border: none;
+}
+
+.newsletter button img {
+  width: 1.7vw;
+}
+
+@media (max-width: 1023.98px) {
+  .newsletter .container {
+    max-width: 92%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .newsletter .img {
+    flex: 0 0 100%;
+  }
+  
+  .newsletter .text {
+    flex: 0 0 100%;
+    width: 100%;
+    margin-bottom: 6.7vw;
+  }
+
+  .newsletter .h3 {
+    font-size: 7.4rem;
+    margin-bottom: 0;
+  }
+  
+  .newsletter .p1 {
+    margin-bottom: 6vw;
+  }
+
+  .newsletter form {
+    width: 100%;
+  }
+
+  .newsletter label {
+    font-size: 4.3rem;
+  }
+  
+  .newsletter input {
+    padding: 0.5rem 0;
+    font-size: 4.3rem;
+  }
+  
+  .newsletter input:focus~label,
+  .newsletter input:valid~label {
+    font-size: 3rem;
+  }
+
+  .newsletter button img {
+    width: 4.2vw;
+  }
+}

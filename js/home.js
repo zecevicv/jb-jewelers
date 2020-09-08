@@ -219,6 +219,10 @@ window.addEventListener('load', () => {
         slidesPerView: 4,
       }
     },
+    navigation: {
+      nextEl: '#instagramSlider .swiper-button-next',
+      prevEl: '#instagramSlider .swiper-button-prev',
+    },
     pagination: {
       el: '#instagramSlider .swiper-pagination',
     },

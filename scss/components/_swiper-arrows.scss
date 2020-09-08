@@ -1,12 +1,6 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the swiper arrows component.
 // -----------------------------------------------------------------------------
-.swiper-arrows .swiper-button-next,
-.swiper-arrows .swiper-button-prev {
-  width: 1.4vw!important;
-  height: 1.4vw!important;
-}
-
 .swiper-arrows .swiper-button-next {
   left: 0;
 }
@@ -32,12 +26,6 @@
 }
 
 @media (max-width: 1023.98px) {
-  .swiper-arrows .swiper-button-next,
-  .swiper-arrows .swiper-button-prev {
-    width: 4vw!important;
-    height: 4vw!important;
-  }
-
   .swiper-arrows .swiper-button-next::after,
   .swiper-arrows .swiper-button-prev::after {
     width: 4vw!important;
